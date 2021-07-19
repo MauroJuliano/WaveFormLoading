@@ -48,7 +48,7 @@ class WaveProgressIndicatorView: UIView {
     }
     
     override init(frame: CGRect){
-        self.waveColor = UIColor.systemIndigo
+        self.waveColor = UIColor.purple
         self.completionInPercent = kDefaultPercent
         self.frequency = kDefaultFrequency
         self.amplitude = kDefaultAmplitude
