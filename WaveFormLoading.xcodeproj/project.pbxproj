@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9DF96E3026A634C20062533D /* WaveFormLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF96E2E26A634C20062533D /* WaveFormLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF96E3826A634DC0062533D /* WaveProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF96E3726A634DC0062533D /* WaveProgressIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DF96E2B26A634C20062533D /* WaveFormLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaveFormLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF96E2E26A634C20062533D /* WaveFormLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveFormLoading.h; sourceTree = "<group>"; };
 		9DF96E2F26A634C20062533D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF96E3726A634DC0062533D /* WaveProgressIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveProgressIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,19 @@
 		9DF96E2D26A634C20062533D /* WaveFormLoading */ = {
 			isa = PBXGroup;
 			children = (
+				9DF96E3626A634C70062533D /* Classes */,
 				9DF96E2E26A634C20062533D /* WaveFormLoading.h */,
 				9DF96E2F26A634C20062533D /* Info.plist */,
 			);
 			path = WaveFormLoading;
+			sourceTree = "<group>";
+		};
+		9DF96E3626A634C70062533D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9DF96E3726A634DC0062533D /* WaveProgressIndicatorView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +105,7 @@
 				TargetAttributes = {
 					9DF96E2A26A634C20062533D = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF96E3826A634DC0062533D /* WaveProgressIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		9DF96E3426A634C20062533D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lestad.WaveFormLoading;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +299,7 @@
 		9DF96E3526A634C20062533D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
