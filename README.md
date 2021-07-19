@@ -1,5 +1,6 @@
-# Custom-TabBar
-<h1> Custom TabBar </h1>
+# WaveFormLoading
+
+![Alt Text](https://media.giphy.com/media/T6qtx3jg9obew1KRsG/giphy.gif)
 
 <h2>Requirements</h2>
 
@@ -8,18 +9,12 @@ xCode 10
 
 <h2>Installation</h2>
 Cocoa Pods
-pod 'Custom-TabBar', :git => 'https://github.com/MauroJuliano/Custom-TabBar.git'
+pod 'WaveFormLoading', :git => 'https://github.com/MauroJuliano/WaveFormLoading.git'
 
 <h2>Usage</h2>
 
-Storyboard
-Create a new UITabBarController in your storyboard.
-
-Set the class of the UITabBarController to CustomTabBarController in your Storyboard or nib.
-
-Add a custom image icon and title for UITabBarItem of each child ViewContrroller
-
-If you need cutom color for each tab set CBTabBarItem class to tab bar items and use tintColor property
+ ![](https://drive.google.com/file/d/1MdTKTlLSrR4LaprDSkHiIyNmG21OSn29/view?usp=sharing)
+ 
 
 <h3> Obs: </h3>
 This pod was created for study purpose only
