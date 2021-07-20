@@ -19,4 +19,4 @@ pod 'WaveFormLoading', :git => 'https://github.com/MauroJuliano/WaveFormLoading.
 <h3> Obs: </h3>
 This pod was created for study purpose only
 License
-CustomTabbar is available under the MIT license. See the LICENSE file for more info.
+WaveFormLoading is available under the MIT license. See the LICENSE file for more info.
