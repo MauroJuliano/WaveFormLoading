@@ -13,7 +13,7 @@ pod 'WaveFormLoading', :git => 'https://github.com/MauroJuliano/WaveFormLoading.
 
 <h2>Usage</h2>
 
- ![](https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/220241704_4020955881365913_2372850516035594657_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=e27jOa31bpAAX8bd9P-&_nc_oc=AQk_Jd6r-Jj86puCFMl2JbLvCVRbyRbleNFk0Lakfhc1In3U1vY4NRBY6WceK2duo3-OESaKN8KB8ND8c0e71g9K&_nc_ht=scontent.fmgf1-1.fna&oh=12dd0ed04c50b30efb31cc29afc8c899&oe=60FAE525)
+ ![](https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/220241704_4020955881365913_2372850516035594657_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=_HLtRwz9uyIAX-CufX4&_nc_oc=AQldhztMUTTXgiZJVKMf0YoDU-CoytqdwSfot7-aA5wWhSUD6hRaPcGSDQ-HUNYEr2g9MZy7Y_T4gGWylrle0Y7O&_nc_ht=scontent.fmgf1-1.fna&oh=3b29d1be1dfb0bb670aefa524ff19ccb&oe=610EABA5)
  
 
 <h3> Obs: </h3>
